@@ -2,6 +2,8 @@ const express = require("express");
 const { open } = require("sqlite");
 const sqlite3 = require("sqlite3");
 const path = require("path");
+
+// in below new update code authentication bcrypt
 const bcrypt = require("bcrypt");
 
 const databasePath = path.join(__dirname, "userData.db");
